@@ -1,3 +1,23 @@
+
+h1, h2, h3, h4, h5, h6 {
+    position:relative;
+
+    color: wheat;
+    text-align: center;
+}
+#maintitle {
+    font-size: 4rem !important;
+    top: 10rem !important;
+    margin: auto;
+    
+}
+#undermain {
+    font-size: 4rem !important;
+    top: 10rem !important;
+    margin: auto;
+    left: 5rem;
+}
+
 @keyframes rotate {
     from {
         rotate: 0deg;
@@ -11,10 +31,10 @@
 
 }
 #blob {
-    animation: rotate 5s infinite 0s infinite alternate;
+    
     background-color: white;
-    height: 250px;
-    width: 250px;
+    height: 20rem;
+    width: 20rem;
     aspect-ratio: 1;
     position: absolute;
     left: 50%;
@@ -26,19 +46,13 @@
         aquamarine,
         rgb(156, 87, 179)
     );
-    animation: rotate 17.5s infinite;
+    animation: rotate 15s infinite;
     filter: blur(200px); 
-    
+    opacity: 50% !important;
 
 }
-h1, h2, h3, h4, h5, h6 {
-    color: wheat;
-    position: absolute;
-}
-.maintext {
-    font-size: 350%;
-}
+
 html {
     background-color: black;
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
 }
