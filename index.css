@@ -1,0 +1,44 @@
+@keyframes rotate {
+    from {
+        rotate: 0deg;
+    }
+    50% {
+        scale: 1 1.5;
+    }
+    to {
+        rotate: 360deg;
+    }
+
+}
+#blob {
+    animation: rotate 5s infinite 0s infinite alternate;
+    background-color: white;
+    height: 250px;
+    width: 250px;
+    aspect-ratio: 1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    border-radius: 50%;
+    background: linear-gradient(
+        to left bottom,
+        aquamarine,
+        rgb(156, 87, 179)
+    );
+    animation: rotate 17.5s infinite;
+    filter: blur(200px); 
+    
+
+}
+h1, h2, h3, h4, h5, h6 {
+    color: wheat;
+    position: absolute;
+}
+.maintext {
+    font-size: 350%;
+}
+html {
+    background-color: black;
+    font-family: 'Roboto', sans-serif; 
+}
