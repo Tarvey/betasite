@@ -6,5 +6,5 @@ document.body.onpointermove = event => {
     blob.animate({
         left: `${clientX}px`,
         top: `${clientY}px`
-    }, { duration: 2000, fill: "backwards"});
+    }, { duration: 3000, fill: "forwards"});
 }
