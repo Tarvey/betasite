@@ -1,0 +1,32 @@
+@keyframes rotate {
+    from {
+        rotate: 0deg;
+    }
+    50% {
+        scale: 1 1.5;
+    }
+    to {
+        rotate: 360deg;
+    }
+
+}
+#blob {
+    position:absolute;
+    background-color: white;
+    height: 20rem;
+    width: 20rem;
+    aspect-ratio: 1;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    border-radius: 50%;
+    background: linear-gradient(
+        to left bottom,
+        aquamarine,
+        rgb(156, 87, 179)
+    );
+    animation: rotate 15s infinite;
+    filter: blur(200px); 
+    opacity: 50%;
+
+}
