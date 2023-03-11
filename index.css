@@ -1,15 +1,4 @@
-.navbarbarul {
-    top: 25vh;
-    position:relative;
-    right: 94vh;
-    width: 3vw;
-    height: 50vh;
-    background-color: rgb(0, 24, 52);
-    margin: 0 auto;
-}
-.navbarbarul:hover {
-    width: 30vh;
-}
+
 h1, h2, h3, h4, h5, h6 {
     position:relative !important;
 
@@ -18,13 +7,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 #maintitle {
     font-size: 4rem !important;
-    top: -17.5rem !important;
+    top: 4.5rem !important;
     margin: auto;
     
 }
 #undermain {
     font-size: 4rem !important;
-    top: -18.5rem !important;
+    top: 3.5rem !important;
     margin: auto;
     left: 3.5rem;
 }

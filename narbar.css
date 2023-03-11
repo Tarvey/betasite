@@ -1,0 +1,30 @@
+.navbarbarul {
+    top: 90vh;
+    position:relative;
+    width: 50vw;
+    height: 10vh;
+    background-color: rgb(169, 169, 169);
+    margin: 0 auto;
+}
+.narbarbarulimg {
+    height: 1.5vh !important;
+    position:relative !important;
+    left: -26.31vw !important;
+    width: 1.5vw !important;
+    margin: 0 auto !important;
+}
+@keyframes darken {
+    from {
+        background-color: rgb(169, 169, 169);
+
+    }
+    to {
+        background-color: rgb(100, 100, 100);
+
+    }
+}
+.navbarbarul:hover {
+    animation: darken 0.5s;
+    background-color: rgb(100, 100, 100);
+}
+
